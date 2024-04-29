@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "socketChat", "socketChat\socketChat.csproj", "{7E7BE69D-93E3-4D50-B8C9-110814B0BFBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{830EFB74-C6C9-435E-A74A-30A7C19CCD1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "socketAPI", "socketAPI\socketAPI.csproj", "{885738D0-6471-4C93-8473-6511738D4556}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E7BE69D-93E3-4D50-B8C9-110814B0BFBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7BE69D-93E3-4D50-B8C9-110814B0BFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7BE69D-93E3-4D50-B8C9-110814B0BFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7BE69D-93E3-4D50-B8C9-110814B0BFBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885738D0-6471-4C93-8473-6511738D4556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885738D0-6471-4C93-8473-6511738D4556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885738D0-6471-4C93-8473-6511738D4556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885738D0-6471-4C93-8473-6511738D4556}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{885738D0-6471-4C93-8473-6511738D4556} = {830EFB74-C6C9-435E-A74A-30A7C19CCD1E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28FB0B15-F73D-4D49-8053-D02D0065938B}
+	EndGlobalSection
+EndGlobal
